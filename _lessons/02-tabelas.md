@@ -501,19 +501,6 @@ print(l[2])
 print(l[1:4])
 ```
 
-
-```python
-#In: 
-l = []
-l = [7, 1, 3, 5, 9]
-print(l[0])
-print(l[1])
-print(l[2])
-
-# Agora, l[bg:ed] retorna uma sublista iniciando em bg e terminando em ed-1
-print(l[1:4])
-```
-
     7
     1
     3
@@ -1035,8 +1022,6 @@ df.head()
 </div>
 
 
-
-O método `head` do notebook retorna as primeiras `n` linhas do mesmo. Use tal método para entender seus dados. **Sempre olhe para seus dados.** Note como as linhas abaixo usa o `loc` e `iloc` para entender um pouco a estrutura dos mesmos.
 
 
 ```python
@@ -1643,37 +1628,6 @@ dados[['coluna1', 'coluna2']].operacao_a().operacao_c().operacao_d().operacao_e(
     John        4845414
     James       4957166
     Name: Count, Length: 30274, dtype: int64
-
-
-
-E ordenar...
-
-
-```python
-#In: 
-(gb['Count'].
- sum().
- sort_values()
-)
-```
-
-
-
-
-    Name
-    Zyshonne          5
-    Makenlee          5
-    Makenlie          5
-    Makinlee          5
-    Makua             5
-                 ...   
-    William     3839236
-    Michael     4312975
-    Robert      4725713
-    John        4845414
-    James       4957166
-    Name: Count, Length: 30274, dtype: int64
-
 
 
 É comum, embora mais chato de ler, fazer tudo em uma única chamada. Isto é uma prática que vem do mundo SQL. A chamada abaixo seria o mesmo de:
