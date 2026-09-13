@@ -599,7 +599,7 @@ df.index
 
 ## Arquivos
 
-Antes de explorar DataFrames em arquivos, vamos ver como um notebook na é um shell bastante poderoso. Ao usar uma exclamação (!) no notebook Jupyter, conseguimos executar comandos do shell do sistema. Em particular, aqui estamos executando o comando ls para indentificar os dados da pasta atual.
+Antes de explorar DataFrames em arquivos, vamos ver como um notebook na verdade é um shell bastante poderoso. Ao usar uma exclamação (!) no notebook Jupyter, conseguimos executar comandos do shell do sistema. Em particular, aqui estamos executando o comando ls para indentificar os dados da pasta atual.
 
 Tudo que executamos com `!` é um comando do terminal do unix. Então, este notebook só deve executar as linhas abaixo em um `Mac` ou `Linux`.
 
