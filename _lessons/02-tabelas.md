@@ -200,7 +200,7 @@ data.loc['b']
 
 
 
-Com `iloc` acessamos por número da linha, estilho um vetor.
+Com `iloc` acessamos por número da linha, estilo um vetor.
 
 
 ```python
